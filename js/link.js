@@ -21,15 +21,15 @@ function deleteUrls(event) {
 
 function paintUrls(newUrl) {
     const li = document.createElement("li");
-    li.className="listname";
+    li.className = "listname";
     li.id = newUrl.id;
     const a = document.createElement("a");
     a.href = `https://www.${newUrl.text}.com/`;
     a.innerText = newUrl.text;
     const button = document.createElement("button");
     button.innerText = "✗";
-    button.className="btn-outline-primary";
-    button.addEventListener("click",deleteUrls);
+    button.className = "btn-outline-primary";
+    button.addEventListener("click", deleteUrls);
     li.appendChild(a);
     li.appendChild(button);
     UrlList.appendChild(li);
@@ -41,7 +41,7 @@ function handleUrlssubmit(event) {
     const newUrl = UrlInput.value;
     UrlInput.value = "";
     const newUrlObj = {
-        text:newUrl,
+        text: newUrl,
         id: Date.now(),
     }
     Urls.push(newUrlObj);
@@ -55,7 +55,7 @@ UrlForm.addEventListener("submit", handleUrlssubmit);
 const saveUrl = localStorage.getItem("Urls");
 
 
-if(saveUrl !== null) {
+if (saveUrl !== null) {
     const parsedUrls = JSON.parse(saveUrl);
     Urls = parsedUrls;
     parsedUrls.forEach(paintUrls);
@@ -63,14 +63,12 @@ if(saveUrl !== null) {
 
 function handleLinkClick() {
     const hidden = "hidden";
-    if(UrlForm.classList.contains(hidden)){
-    UrlForm.classList.remove(hidden);
-    UrlList.classList.remove(hidden);
-    }
-    else {
+    if (UrlForm.classList.contains(hidden)) {
+        UrlForm.classList.remove(hidden);
+        UrlList.classList.remove(hidden);
+    } else {
         UrlForm.classList.add(hidden);
         UrlList.classList.add(hidden);
     }
 }
-    link.addEventListener("click", handleLinkClick);
-
+link.addEventListener("click", handleLinkClick);
