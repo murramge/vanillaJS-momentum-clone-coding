@@ -8,7 +8,7 @@
 ## 📝 Project History 📝
 ##### You can see more about the project. ->  <a href="https://daram-daram.notion.site/vanilaJS-momentum-clonecoding-note-b63bcab8e4d844538bbf202db022385b"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white&link=https://daram-daram.notion.site/vanilaJS-momentum-clonecoding-note-b63bcab8e4d844538bbf202db022385b"/>
 ## Explanation
-  - <a href="https://daram-daram.notion.site/vanilaJS-momentum-clonecoding-note-b63bcab8e4d844538bbf202db022385b">momentum</a>의 전반적인 기능 (시간, 날씨, todolist 등)을 Javascript로 만들어보았음.
+  - <a href="https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca">momentum</a>의 전반적인 기능 (시간, 날씨, todolist 등)을 Javascript로 만들어보았음.
   - nomadcoders의 자바스크립트 모멘텀 클론코딩을 보고 vanillaJS와 CSS, HTML를 공부하는 목적으로 만든 clonecoding 프로젝트
   
 
