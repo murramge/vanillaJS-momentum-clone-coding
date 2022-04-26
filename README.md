@@ -7,7 +7,7 @@ Other details have also been embodied.
 
 NomadCoder Lecture Link -> https://nomadcoders.co/javascript-for-beginners
 
-My Project Development Process Note (KOR) -> https://daram-daram.notion.site/vanilaJS-momentum-e1fcc32f17bb47d8b6279962bab81ed8
+My Project Development Process Note (KOR) -> https://daram-daram.notion.site/vanilaJS-momentum-clonecoding-note-b63bcab8e4d844538bbf202db022385b
 
 📸 screenshot
 ![ex_screenshot](./img/screenshot.png)
